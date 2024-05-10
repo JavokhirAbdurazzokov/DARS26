@@ -1,0 +1,53 @@
+@keyframes aa {
+    0% {
+        background-color: brown;
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        background-color: red;
+        top: 400;
+        left: 1000px;
+    }
+
+    50% {
+        background-color: blueviolet;
+        border-radius: 50%;
+        top: 400px;
+        left: 1000px;
+    }
+
+    75% {
+        background-color: currentColor;
+        top: 400;
+        left: 0;
+    }
+
+    100% {
+        background-color: yellow;
+        top: 0;
+        left: 0;
+    }
+}
+
+.ota {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    animation-name: aa;
+    animation-duration: 5s;
+animation-iteration-count: infinite;
+    background-color: green;
+    animation-direction: reverse;
+}
+.ota2 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    animation-name: aa;
+    animation-duration: 5s;
+animation-iteration-count: infinite;
+    background-color: green;
+    animation-delay: 10s;
+}
